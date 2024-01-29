@@ -1,0 +1,103 @@
+/* ==================================================
+     ABOUT OUR THEME
+====================================================*/
+/* 
+- Theme Name: CSS Series
+- Theme URL: www.creatorscademy.com
+- Author Name: Asad
+- Description: Only for Learning purposes...... 
+- Tags: HTML,CSS,advancecss,.....
+*/
+
+/* ==================================================
+     Table of Content
+====================================================*/
+/* 
+
+- General
+- Fonts
+- Navgation
+- Header
+- About Us
+- ....
+- ....
+- ....
+- Media Query
+*/
+
+
+/* ==================================================
+     General Helping Classes
+====================================================*/
+
+
+
+
+/* ==================================================
+     Fonts
+====================================================*/
+
+
+
+
+
+/* This is my Heading */
+h1{ 
+    color: blue;
+    text-decoration-line: overline;
+    text-shadow:  2px 2px 5px red;
+}
+
+/* Paragraph Description Styling */
+.para{
+    background-color: red;
+}
+
+.first_para{
+    color: black;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    text-indent: 90px;
+}
+
+
+span{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+}
+
+.second_para{
+    color: black;
+    letter-spacing: -1px;
+    line-height: 2.5;
+}
+
+button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+
+#new_link{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.parent{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+  
+
+.parent .child{
+
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
