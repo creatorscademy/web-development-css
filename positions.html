@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position In CSS</title>
+
+    <style>
+        
+        .wrapper{
+            display: flex;
+        }
+
+        .box1{
+            width:200px;
+            height: 200px;
+            background-color: red;
+            margin-right: 20px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        .box2{
+            width:200px;
+            height: 200px;
+            background-color: yellow;
+            margin-right: 20px;
+            left: 50px;
+        }
+
+        .box3{
+            width:200px;
+            height: 200px;
+            background-color: green;
+        }
+
+        .banner{
+            width: 100%;
+            height: 300px;
+            border:1px solid black;
+            position: relative;
+            margin-top: 100px;
+        
+        }
+
+        .content{
+            width: 300px;
+            background-color:beige;
+            padding: 20px;
+            position: absolute;
+            left: 20px;
+            top: 50px;
+        }
+
+        .my-fixed-position{
+            position: fixed;
+            top: 0;
+            background-color: #000;
+            color: white;
+        }
+
+        .position-sticky{
+            position:sticky;
+            top:50px;
+            left:100%;
+            background-color: black;
+            color: white;
+            width: 50px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+    <div class="wrapper">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>    
+    </div>
+
+
+    <div class="banner">
+
+        <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consequatur incidunt cupiditate, eveniet deserunt modi odio sunt eius in officia. Nostrum totam perspiciatis cupiditate nulla nihil, quasi eligendi maiores laborum.</p>            
+        </div>
+
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    
+    <div class="position-sticky">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit (Position STIKCY)</p>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil quam ratione minus, perferendis et ipsum velit excepturi corporis recusandae exercitationem qui? Laudantium iusto quaerat voluptatibus itaque inventore harum est.</p>
+
+
+    <div class="my-fixed-position">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. (Position FIXED)</p>
+    </div>
+
+
+    
+</body>
+</html>
