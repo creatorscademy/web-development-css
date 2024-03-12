@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z Index</title>
+
+    <style>
+        img {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          z-index: -1;  
+        }
+
+
+        .container {
+  position: relative;
+  margin-top: 200px;
+}
+
+.black-box {
+  position: relative;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+  z-index:100;	
+}
+
+.gray-box {
+  position: absolute;
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+  z-index:101;
+  
+}
+
+.green-box {
+  position: absolute;
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+   z-index:101;
+}
+
+        </style>
+
+</head>
+<body>
+
+    <h1>The z-index Property</h1>
+
+<img src="images/image-1.jpg" width="1000" height="300">
+
+<p>Because the image has a z-index of -1, it will be placed behind the heading.</p>
+
+
+<div class="container">
+    <div class="black-box">Black box</div>
+    <div class="gray-box">Gray box</div>
+    <div class="green-box">Green box</div>
+  </div>
+    
+</body>
+</html>
