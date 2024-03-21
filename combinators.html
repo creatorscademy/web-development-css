@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+
+    <style>
+
+        /* p {
+            background-color: red;    
+        } */
+
+        div p{
+            background-color: red;
+        }
+
+        .child > p{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odit repellendus quam reprehenderit temporibus iste nam voluptatem, animi nulla nobis quos, minus illo eaque ipsum ea sed vel. Nisi, nemo.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odit repellendus quam reprehenderit temporibus iste nam voluptatem, animi nulla nobis quos, minus illo eaque ipsum ea sed vel. Nisi, nemo.
+    </p>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad dolore harum reprehenderit dolorum, doloribus temporibus accusamus optio perferendis cumque. Impedit vitae, nulla officia voluptatibus nisi temporibus eos unde suscipit?</p>
+    </div>
+
+    <article>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus officiis facere nam ipsa alias optio nulla delectus, nisi, incidunt reiciendis sunt sequi dignissimos vero maxime similique accusantium quod ratione?</p>
+    </article> -->
+
+
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    
+<div>
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    <section><p>Paragraph 3 in the div.</p></section>
+  </div>
+
+  <p>Paragraph 1 in the div.</p>
+  <p>Paragraph 2 in the div.</p>
+
+
+  <div class="child">
+    <p>Paragraph 1 in the div.</p>
+    <p>Paragraph 2 in the div.</p>
+    <section>
+      <!-- not Child but Descendant -->
+      <p>Paragraph 3 in the div (inside a section element).</p>
+    </section>
+    <p>Paragraph 4 in the div.</p>
+  </div>
+
+  
+</body>
+</html>
